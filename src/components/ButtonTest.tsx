@@ -1,6 +1,6 @@
 import React, {MouseEvent} from 'react';
 //
-// const Button = () => {
+//export const ButtonTest = () => {
 //     // const myFirstSub = (event:MouseEvent<HTMLButtonElement>) => {
 //     //     console.log("Hello I'm Vlad")
 //     // }
@@ -27,5 +27,3 @@ import React, {MouseEvent} from 'react';
 //         </div>
 //     );
 // };
-//
-// export default Button;
