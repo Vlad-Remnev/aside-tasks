@@ -8,7 +8,7 @@ const ButtonState = () => {
         console.log(a)
     }
     const onClickZero = () => {
-        setA(0);
+        setA(a = 0);
         console.log(a)
     }
     return (
