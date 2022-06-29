@@ -1,5 +1,4 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
@@ -7,6 +6,7 @@ import {Footer} from "./components/Footer/Footer";
 import Button from "./components/Button/Button";
 import ButtonState from "./components/ButtonState/ButtonState";
 import FilterComponent from "./components/FilterComponent/FilterComponent";
+import {InputComponent} from "./components/InputComponent/InputComponent";
 
 const topCars = [
     {manufacturer: 'BMW', model: 'm5cs', price: 500},
@@ -27,6 +27,7 @@ function App() {
     const btn3Foo = () => {
         console.log("I'm Stupid Btn")
     }
+
     return (
         <>
             <Header title={'NEW PAGE - Header'}/>
@@ -38,6 +39,7 @@ function App() {
             <ButtonState />
             <hr/>
             <FilterComponent />
+            <InputComponent />
         </>
     );
 }
